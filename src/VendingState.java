@@ -1,8 +1,9 @@
 public interface VendingState {
-    void hasCash();
+    void hasCash(int cash);
     void doesnthasCash();
-    void EjectDrink();
-    void NoDrink();
-    void hasChange();
+    void noDrink();
+    void hasChange(boolean has_change);
+    void hasDrink();
     void hasNoChange();
+    //void ejectDrink();
 }
